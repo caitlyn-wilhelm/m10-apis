@@ -30,7 +30,7 @@ Director <- function(data_frame) {
     return(paste0("The movie,", title, "was directed by", director))
 }
 # Call Director with your favorite movie, and assign it to the variable movie.director
-Director(movie_data)
+movie.director <- Director(movie_data)
 # Bonus 
 
 # Knowing the director of on movie is okay, but it'd be great to know the directors of different
